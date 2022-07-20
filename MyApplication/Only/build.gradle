@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion '32.0.0'
+
+    defaultConfig {
+        applicationId 'com.rpgmaker.only'
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName '1.0.0'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86_64', 'arm64-v8a'
+            universalApk true
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.play:core:1.10.3'
+    implementation 'com.google.android.play:core-ktx:1.8.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.webkit:webkit:1.4.0'
+}

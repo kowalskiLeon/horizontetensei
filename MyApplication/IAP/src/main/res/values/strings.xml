@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My RPG Game</string>
+
+    <string name="license_key" translatable="false">(Enter the Google Play License Key.)</string>
+
+    <string name="is_gdd_msg">Please go to Google Play Store to download this Game.</string>
+    <string name="are_you_exit_title">EXIT</string>
+    <string name="are_you_exit_msg">Are you going to exit the game?</string>
+    <string name="are_you_exit_yes">Yes</string>
+    <string name="are_you_exit_no">No</string>
+    <string name="are_you_Ok">OK</string>
+    <string name="are_you_Cancel">Cancel</string>
+
+    <!--  Whether to turn on test mode  -->
+    <!-- Remember to set the value of "test_mode" to "false" when you want to publish to the Google Play Store. -->
+    <string name="test_mode" translatable="false">true</string>
+
+    <!-- adMob - Ads test device ID  -->
+    <string name="admob_device_id" translatable="false">(Enter the device ID for the test admob Ad.)</string>
+
+    <!-- adMob - Ads Application ID  -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-8579251409351785~7089082109</string>
+
+    <!-- If you need to test it, you can check the Admob Ads unit ID for the test at the following link. -->
+    <!-- https://developers.google.com/admob/android/test-ads -->
+
+    <!-- adMob - Banner Ads Unit ID -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <!-- adMob - Interstitial Ads Unit ID -->
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!-- adMob - Rewarded Interstitial Ads Unit ID -->
+    <string name="rewarded_Ad_unit_id" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+</resources>

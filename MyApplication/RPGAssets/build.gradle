@@ -1,0 +1,8 @@
+apply plugin: 'com.android.asset-pack'
+
+assetPack {
+    packName = "RPGAssets"
+    dynamicDelivery {
+        deliveryType = "install-time"
+    }
+}

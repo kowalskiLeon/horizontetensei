@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">私のRPGゲーム</string>
+    <string name="are_you_exit_title">終了</string>
+    <string name="are_you_exit_msg">ゲームを終了するつもりですか？</string>
+    <string name="are_you_exit_yes">はい</string>
+    <string name="are_you_exit_no">いいえ</string>
+    <string name="are_you_Ok">OK</string>
+    <string name="are_you_Cancel">キャンセル</string>
+</resources>

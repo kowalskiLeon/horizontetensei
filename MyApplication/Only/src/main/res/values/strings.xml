@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My RPG Game</string>
+
+    <string name="are_you_exit_title">EXIT</string>
+    <string name="are_you_exit_msg">Are you going to exit the game?</string>
+    <string name="are_you_exit_yes">Yes</string>
+    <string name="are_you_exit_no">No</string>
+    <string name="are_you_Ok">OK</string>
+    <string name="are_you_Cancel">Cancel</string>
+</resources>
