@@ -117,7 +117,7 @@ Window_ItemList.prototype.maxCols = function() {
 
 Scene_Menu.prototype.statusWindowRect = function() {
     const ww = Graphics.boxWidth;
-    const wy = this.mainAreaTop() + this.calcWindowHeight(3, true)+16;
+    const wy = 56 + this.calcWindowHeight(3, true)+16;
     const wh = this.mainAreaHeight() -wy + this.calcWindowHeight(1, true)-16;
     const wx = this.isRightInputMode() ? 0 : Graphics.boxWidth - ww;
     
@@ -128,7 +128,7 @@ Scene_Menu.prototype.goldWindowRect = function() {
     const ww = Graphics.boxWidth
     const wh = this.calcWindowHeight(1, true);
     const wx = this.isRightInputMode() ? Graphics.boxWidth - ww : 0;
-    const wy = this.mainAreaTop();
+    const wy = 56;
     return new Rectangle(wx, wy, ww, wh);
 };
 
@@ -136,13 +136,13 @@ Scene_Menu.prototype.commandWindowRect = function() {
     const ww = Graphics.boxWidth
     const wh = this.calcWindowHeight(2, true);
     const wx = this.isRightInputMode() ? Graphics.boxWidth - ww : 0;
-    const wy = this.mainAreaTop() + this.calcWindowHeight(1, true);
+    const wy = 56 + this.calcWindowHeight(1, true);
     return new Rectangle(wx, wy, ww, wh);
 };
 
 Scene_Item.prototype.categoryWindowRect = function() {
     const wx = 0;
-    const wy = this.mainAreaTop();
+    const wy = 56;
     const ww = Graphics.boxWidth;
     const wh = this.calcWindowHeight(2, true);
     return new Rectangle(wx, wy, ww, wh);

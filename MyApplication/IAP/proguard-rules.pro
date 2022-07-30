@@ -21,7 +21,7 @@
 #-renamesourcefileattribute SourceFile
 
 -keep class com.android.vending.billing.**
-
+-ignorewarnings
 -assumenosideeffects class android.util.Log {
  public static *** d(...);
  public static *** w(...);

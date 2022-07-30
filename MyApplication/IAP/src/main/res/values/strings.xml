@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">My RPG Game</string>
+    <string name="app_name">Caos no Horizonte</string>
 
     <string name="license_key" translatable="false">(Enter the Google Play License Key.)</string>
 
     <string name="is_gdd_msg">Please go to Google Play Store to download this Game.</string>
     <string name="are_you_exit_title">EXIT</string>
-    <string name="are_you_exit_msg">Are you going to exit the game?</string>
-    <string name="are_you_exit_yes">Yes</string>
-    <string name="are_you_exit_no">No</string>
+    <string name="are_you_exit_msg">Quer sair do jogo?</string>
+    <string name="are_you_exit_yes">Sim</string>
+    <string name="are_you_exit_no">Não</string>
     <string name="are_you_Ok">OK</string>
-    <string name="are_you_Cancel">Cancel</string>
+    <string name="are_you_Cancel">Cancelar</string>
 
     <!--  Whether to turn on test mode  -->
     <!-- Remember to set the value of "test_mode" to "false" when you want to publish to the Google Play Store. -->
